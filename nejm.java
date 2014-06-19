@@ -94,8 +94,10 @@ public class web_scraping_main {
 		     e.printStackTrace();
 		} 
 		
+		/* Preetish 144 corresponds to how many pages are there in (http://www.nejmcareercenter.org/jobs/144/) this can be found out by tying a big number say
+		(http://www.nejmcareercenter.org/jobs/1000/) and the page ends up with the last available number */
 		
-		for (int i = 1;i < 77; i++)
+		for (int i = 1;i < 144; i++)
 
 		{
 			
