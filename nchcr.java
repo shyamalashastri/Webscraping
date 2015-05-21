@@ -103,7 +103,7 @@ public class web_scraping_main {
 			e.printStackTrace();
 		} 
 
-        //Preetish 306148 correspons to the first job id (highest number) at http://www.nchcr.com/SearchJobs.aspx  - replace it with the highest while running.
+        //EDIT 306148 correspons to the first job id (highest number) at http://www.nchcr.com/SearchJobs.aspx  - replace it with the highest while running.
 		for (int i = 306148;i >= 0; i--)
 
 		{
