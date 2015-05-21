@@ -94,7 +94,7 @@ public class scrap3 {
 		try
 		{
 
-			FileWriter writer_main = new FileWriter("/Users/preetishshiroor/Documents/Code/AutoScraper/src/Main.csv",true); //true tells to append data.
+			FileWriter writer_main = new FileWriter("Main.csv",true); //true tells to append data.
 			writer_main.append(label_list);
 			writer_main.append("\n");
 
@@ -245,16 +245,16 @@ public class scrap3 {
 
 			try
 			{
-				FileWriter writer = new FileWriter("/Users/preetishshiroor/Documents/Code/AutoScraper/src/csv/"+speciality_file+".csv",true);
+				FileWriter writer = new FileWriter("csv/"+speciality_file+".csv",true);
 				writer.append(Details);
 				writer.append("\n");
 
-				FileWriter writer_flat = new FileWriter("/Users/preetishshiroor/Documents/Code/AutoScraper/src/flat/"+speciality_file+".txt",true);
+				FileWriter writer_flat = new FileWriter("flat/"+speciality_file+".txt",true);
 				writer_flat.append(description);
 				writer_flat.append("\n");
 				writer_flat.append(occupationalCategory);
 				writer_flat.append("\n");
-//				FileWriter writer_main = new FileWriter("/Users/preetishshiroor/Documents/Code/AutoScraper/src/Main.csv",true); //true tells to append data.
+//				FileWriter writer_main = new FileWriter("Main.csv",true); //true tells to append data.
 //
 //				writer_main.append(Details1);
 //				writer_main.append("\n");
@@ -295,7 +295,7 @@ public class scrap3 {
 		{
 
 
-			FileWriter writer_info = new FileWriter("/Users/preetishshiroor/Documents/Code/AutoScraper/src/Info/Info.txt",true); //true tells to append data.
+			FileWriter writer_info = new FileWriter("Info/Info.txt",true); //true tells to append data.
 
 			writer_info.append("Website "+mainSite);
 			writer_info.append("\n");
